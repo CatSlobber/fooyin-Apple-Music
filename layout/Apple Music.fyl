@@ -1,0 +1,331 @@
+{
+    "Name": "Apple Music",
+    "Options": {
+        "ApplyTheme": true,
+        "ApplyWindowSize": false,
+        "ThemeOptions": 3
+    },
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterVertical": {
+                "State": "AAAA/wAAAAEAAAACAAAASwAABNcA/////wEAAAACAA==",
+                "Widgets": [
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAAHIgAAAssA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterHorizontal": {
+                                        "State": "AAAA/wAAAAEAAAACAAADSAAAA9kA/////wEAAAABAA==",
+                                        "Widgets": [
+                                            {
+                                                "SplitterHorizontal": {
+                                                    "State": "AAAA/wAAAAEAAAACAAACrAAAAKQA/////wEAAAABAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "SplitterHorizontal": {
+                                                                "State": "AAAA/wAAAAEAAAACAAABdgAAAS4A/////wEAAAABAA==",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "SearchBar": {
+                                                                            "AutoSearch": true,
+                                                                            "SearchMode": 0,
+                                                                            "ShowAll": false
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "Spacer": {
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "SplitterHorizontal": {
+                                                                "State": "AAAA/wAAAAEAAAACAAAAxgAAABQA/////wEAAAABAA==",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "SplitterHorizontal": {
+                                                                            "State": "AAAA/wAAAAEAAAACAAAAJQAAAG4A/////wEAAAABAA==",
+                                                                            "Widgets": [
+                                                                                {
+                                                                                    "CommandButton": {
+                                                                                        "CommandId": "Playback.Previous",
+                                                                                        "IconName": "",
+                                                                                        "IconPath": "",
+                                                                                        "Text": "",
+                                                                                        "ToolButtonStyle": 0
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "SplitterHorizontal": {
+                                                                                        "State": "AAAA/wAAAAEAAAACAAAASAAAACUA/////wEAAAABAA==",
+                                                                                        "Widgets": [
+                                                                                            {
+                                                                                                "CommandButton": {
+                                                                                                    "CommandId": "Playback.PlayPause",
+                                                                                                    "IconName": "",
+                                                                                                    "IconPath": "",
+                                                                                                    "Text": "",
+                                                                                                    "ToolButtonStyle": 0
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "CommandButton": {
+                                                                                                    "CommandId": "Playback.Next",
+                                                                                                    "IconName": "",
+                                                                                                    "IconPath": "",
+                                                                                                    "Text": "",
+                                                                                                    "ToolButtonStyle": 0
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "Spacer": {
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "SplitterVertical": {
+                                                    "State": "AAAA/wAAAAEAAAACAAAAMQAAABgA/////wEAAAACAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "SplitterHorizontal": {
+                                                                "State": "AAAA/wAAAAEAAAACAAAAMAAABJAA/////wEAAAABAA==",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "ArtworkPanel": {
+                                                                            "CoverAlignment": 132,
+                                                                            "CoverType": 0,
+                                                                            "FadeCoverChanges": false,
+                                                                            "FadeDurationMs": 1000,
+                                                                            "KeepAspectRatio": true
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "ScriptDisplay": {
+                                                                            "BackgroundColour": "",
+                                                                            "Font": "",
+                                                                            "ForegroundColour": "",
+                                                                            "HorizontalAlignment": 1,
+                                                                            "LinkColour": "",
+                                                                            "Script": "<sized=-1><b>$if2(%title%,Unknown Title)</b></sized>$crlf()<sized=-1>$if2(%albumartist%,Unknown Artist)</sized> <sized=-1>—</sized> <sized=-1>$if2(%album%,Unknown Album)</sized>",
+                                                                            "ShowScrollbar": true,
+                                                                            "VerticalAlignment": 64
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "SeekBar": {
+                                                                "ShowLabels": true,
+                                                                "ShowRemainingTime": false
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "SplitterHorizontal": {
+                                        "State": "AAAA/wAAAAEAAAACAAAB4wAAAOcA/////wEAAAABAA==",
+                                        "Widgets": [
+                                            {
+                                                "SplitterHorizontal": {
+                                                    "State": "AAAA/wAAAAEAAAACAAABwQAAACEA/////wEAAAABAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "Spacer": {
+                                                            }
+                                                        },
+                                                        {
+                                                            "CommandButton": {
+                                                                "CommandId": "Library.Configure",
+                                                                "IconName": "",
+                                                                "IconPath": "",
+                                                                "Text": "Configure",
+                                                                "ToolButtonStyle": 0
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "VolumeControls": {
+                                                    "Mode": 3
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAABeAAACHUA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "TabStack": {
+                                        "Position": "West",
+                                        "RememberLastTab": false,
+                                        "State": "Albums\u001fArtists\u001fGenres\u001fYears\u001fPlaylists",
+                                        "Widgets": [
+                                            {
+                                                "LibraryFilter": {
+                                                    "AlternatingRows": false,
+                                                    "Artwork": 0,
+                                                    "AutoSwitch": true,
+                                                    "Captions": 1,
+                                                    "Columns": "3",
+                                                    "Display": 0,
+                                                    "DoubleClickAction": 0,
+                                                    "Group": "",
+                                                    "ID": "5e1c766431c64b6f859a1d3887daf005",
+                                                    "IconHeight": 60,
+                                                    "IconHorizontalGap": -1,
+                                                    "IconVerticalGap": 15,
+                                                    "IconWidth": 60,
+                                                    "Index": -1,
+                                                    "KeepAlive": false,
+                                                    "MiddleClickAction": 0,
+                                                    "PlaylistEnabled": true,
+                                                    "PlaylistName": "Filter Results",
+                                                    "RowHeight": 0,
+                                                    "SendPlayback": true,
+                                                    "ShowHeader": false,
+                                                    "ShowScrollbar": true,
+                                                    "ShowSummary": true,
+                                                    "Source": -1,
+                                                    "State": "AAAAJXjaY2BgYAQiKwYwDQaM9h+gDKgAAwAalgFv"
+                                                }
+                                            },
+                                            {
+                                                "LibraryFilter": {
+                                                    "AlternatingRows": false,
+                                                    "Artwork": 0,
+                                                    "AutoSwitch": true,
+                                                    "Captions": 1,
+                                                    "Columns": "2",
+                                                    "Display": 0,
+                                                    "DoubleClickAction": 0,
+                                                    "Group": "",
+                                                    "ID": "1d22d18c7edb48bb969c453841d95fe4",
+                                                    "IconHeight": 100,
+                                                    "IconHorizontalGap": -1,
+                                                    "IconVerticalGap": 10,
+                                                    "IconWidth": 100,
+                                                    "Index": -1,
+                                                    "KeepAlive": false,
+                                                    "MiddleClickAction": 0,
+                                                    "PlaylistEnabled": true,
+                                                    "PlaylistName": "Filter Results",
+                                                    "RowHeight": 0,
+                                                    "SendPlayback": true,
+                                                    "ShowHeader": false,
+                                                    "ShowScrollbar": true,
+                                                    "ShowSummary": true,
+                                                    "Source": -1,
+                                                    "State": "AAAAJXjaY2BgYGRgYEhggNAgwGj/AcqACjAAAB7rAZQ="
+                                                }
+                                            },
+                                            {
+                                                "LibraryFilter": {
+                                                    "AlternatingRows": false,
+                                                    "Artwork": 0,
+                                                    "AutoSwitch": true,
+                                                    "Captions": 1,
+                                                    "Columns": "0",
+                                                    "Display": 0,
+                                                    "DoubleClickAction": 0,
+                                                    "Group": "",
+                                                    "ID": "4dd3f272fc3248e8bdc6b623552e5690",
+                                                    "IconHeight": 100,
+                                                    "IconHorizontalGap": -1,
+                                                    "IconVerticalGap": 10,
+                                                    "IconWidth": 100,
+                                                    "Index": -1,
+                                                    "KeepAlive": false,
+                                                    "MiddleClickAction": 0,
+                                                    "PlaylistEnabled": true,
+                                                    "PlaylistName": "Filter Results",
+                                                    "RowHeight": 0,
+                                                    "SendPlayback": true,
+                                                    "ShowHeader": false,
+                                                    "ShowScrollbar": true,
+                                                    "ShowSummary": true,
+                                                    "Source": -1,
+                                                    "State": "AAAAJXjaY2BgYGRgYEhggNAgwGj/AcqACjAAAB7rAZQ="
+                                                }
+                                            },
+                                            {
+                                                "LibraryFilter": {
+                                                    "AlternatingRows": false,
+                                                    "Artwork": 0,
+                                                    "AutoSwitch": true,
+                                                    "Captions": 1,
+                                                    "Columns": "4",
+                                                    "Display": 0,
+                                                    "DoubleClickAction": 0,
+                                                    "Group": "",
+                                                    "ID": "e6c40223779e47b9bd018395bd41841e",
+                                                    "IconHeight": 100,
+                                                    "IconHorizontalGap": -1,
+                                                    "IconVerticalGap": 10,
+                                                    "IconWidth": 100,
+                                                    "Index": -1,
+                                                    "KeepAlive": false,
+                                                    "MiddleClickAction": 0,
+                                                    "PlaylistEnabled": true,
+                                                    "PlaylistName": "Filter Results",
+                                                    "RowHeight": 0,
+                                                    "SendPlayback": true,
+                                                    "ShowHeader": false,
+                                                    "ShowScrollbar": true,
+                                                    "ShowSummary": true,
+                                                    "Source": -1,
+                                                    "State": "AAAAJXjaY2BgYGRgYEhggNAgwGj/AcqACjAAAB7rAZQ="
+                                                }
+                                            },
+                                            {
+                                                "PlaylistOrganiser": {
+                                                    "LeftScript": "%node_name%$if(%is_group%, \\[%count%\\],)",
+                                                    "PlayingBackgroundColour": "",
+                                                    "PlayingTextColour": "",
+                                                    "RightScript": "$if($not(%is_group%),%count%)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Playlist": {
+                                        "Columns": "8:4|0:4|1|7:4|2|5|6:4|21:4|13|22|23",
+                                        "HeaderState": "AAAAxXjaY2Bg4GZgYFAHYl0GBsYfQNoBSFcA8ScgWx+IY4H4DhBfAWIdBoh6DiBmZIAAJiBmBmIWIGYFYk4g5gJiNiBmB6m3n3Si7ERCla791HJHQ6/d++3PCb7795p3nf28K/YiB8SO2R+rsD504a2a/dk91+6lv7Kwn7Zuqj0/Q4L9MgfPpr2bTex32eTIn5WzsN/pri+pseK6/dSytBMiHAJgB/wHAgCX0THX",
+                                        "ID": "e3b1afa72fee40fbae0210320783b985",
+                                        "Preset": 1,
+                                        "SingleMode": false
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
