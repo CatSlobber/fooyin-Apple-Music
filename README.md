@@ -1,4 +1,4 @@
-An attempt at recreating Apple Music's layout with ![fooyin](https://gitgub.com/fooyin/fooyin) with some modifications and improvements.
+An attempt at recreating Apple Music's layout with ![fooyin](https://gitgub.com/fooyin/fooyin/) with some modifications and improvements.
 
 Albums
 ![Albums view](/screenshots/01%20Albums.png)
